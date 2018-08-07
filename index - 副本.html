@@ -1,0 +1,629 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!doctype html>
+<html>
+	<head>
+		<title>Mengqian LU | Home :: UST website</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files 自定义主题文件-->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		  <!---- start-smoth-scrolling平滑滚动---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!-- webfonts -->
+		<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<!-- webfonts -->
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="totop" class="header">
+				<div class="container">
+				<!-- menu -->
+				<div class="menu">
+					<span class="menu-icon"> </span>
+					<ul>
+						<li><a href="#intro" class="scroll">Meet Us</a></li>						
+						<li><a href="#projects" class="scroll">Projects</a></li>
+						<li><a href="#about" class="scroll">Team</a></li>
+						<li><a href="#Tweets" class="scroll">Blog</a></li>
+						<li><a href="#services" class="scroll">Collaborators</a></li>
+						<li><a href="#contact" class="scroll">Contact Us</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<!-- /menu -->
+				<!-- script-for-menu -->
+				<script>
+					$(document).ready(function(){
+						$(".menu ul").hide();
+						$("span.menu-icon").click(function(){
+							$(".menu ul").slideToggle(500);
+						});
+						
+					});
+				</script>
+				<!-- /script-for-menu -->
+				<!-- header-info -->
+				<div class="header-info text-center">
+					<h2>Hydrometeorology, Atmosphere and Climate</h2>
+					<span> </span>
+					<h1>HydroMetGroup@HKUST</h1>
+					<a href="#intro"  class="scroll"><label class="downarrow"> </label></a>
+				</div>
+				<!-- /header-info -->
+				<div class="intro-pic">
+					<a href="https://www.instagram.com/jichengrobin/">
+					<p></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>Photo by Ji Cheng
+					</p>
+					</a>
+				</div>
+			</div>
+
+			<!-- /header -->
+			</div>
+			<!-- intro -->
+			<div id="intro" class="intro text-center">
+				<div class="container">
+					<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>Meet Us</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+                    <p align="left"> The HydroMet Group is a research team led by Prof. Mengqian Lu at the Department of Civil and Environmental Engineering, the Hong Kong University of Science and Technology (HKUST). The team currently consists of six research graduate students, one postdoctoral research fellow. From time to time, we will have visiting students and scholars coming to UST and work with us. You can find their research interests and news in the Team & Latest News sessions. At the moment, our team is expanding, if you are interested in joining us, please contact Prof. Mengqian Lu (mengqian.lu@ust.hk) with your CV and some description of your research pursuit. We have opening positions for graduate students (both Master of Philosophy and Doctor of Philosophy) and postdoctoral researchers. </p>
+                    
+                    <p align="left"> We want to provide a platform for anyone who might be interested in the same research area and/or our group, to know us and learn our current research findings. Our research interests lie in water resource, data science, climate dynamics and risk management. We are motivated by emerging questions at the intersection of water resources, severe weather event and climate change with a focus on hydroclimate extremes prediction and associated risk management given their close relevance to societal outcomes or to the advancement of science towards innovative application. Our ongoing research covers spatiotemporal statistics and prediction of extreme hydrometerological events and the mechanisms and impacts of Atmospheric Rivers, changes in their frequency-of-occurrence subjected to climate variability and climate changes, and their impacts on natural resources management schemes and risk mitigation. Our education background and research experiences in water resources engineering, atmospheric science, climate and data science enable us assimilate the understanding of the physical systems with 'big data' approaches to develop a framework for the hydrometeorological study. Everyone in my group has their own research focus, which you can find out from their own page (linked provided below) in details.</p>            
+ 					<a href="#services"  class="scroll"><label class="downarrow1"> </label></a>
+                   
+				</div>
+			</div>
+			<!-- intro -->
+			<!-- video -->
+			<!---- video ---->
+				<!---pop-up-box---->
+					<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!---//pop-up-box---->
+				
+					<div id="small-dialog" class="mfp-hide">
+						<!--<iframe src="./video.html"> </iframe>-->
+						<video id="video" controls>
+							<source type="video/mp4" src="./vedio/vedio.mp4">
+						</video>
+					</div>
+					
+				<script>
+						$(document).ready(function() {
+							$('.popup-with-zoom-anim').magnificPopup({
+								type: 'inline',
+								fixedContentPos: false,
+								fixedBgPos: true,	
+								overflowY: 'auto',					
+								closeBtnInside: true,
+								preloader: false,
+								midClick: true,
+								removalDelay: 300,
+								mainClass: 'my-mfp-zoom-in',
+                              callbacks: {
+								  open: function(){
+
+								  },
+								close: function(){
+								    console.log(  $("#video").get(0),"2");
+								    $("#video").get(0).pause();
+								}
+							  }
+							});																
+							});
+					</script>
+				 							  
+				</div>
+			<!----//fea-video---->
+			<div id="price" class="video">
+				<a class="play popup-with-zoom-anim" href="#small-dialog"><span> </span></a>
+				<div class="video-pic">
+					<a href="https://www.instagram.com/jichengrobin/">
+					<p align="left"></br></br></br></br></br></br></br></br></br></br>Photo by Ji Cheng</p>
+					</a>
+			</div>
+			</div>
+			<!-- video -->
+		
+			
+		
+			<!-- projects portfolio -->
+			<div id="projects" class="portfolio text-center">
+				<div class="container">
+				<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>Latest Projects</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+				</div>
+				<!-- portfolio-grids -->
+				<div class="portfolio-grids text-left">
+					 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 0,
+							        lazyLoad : false,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : false,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel text-center" style="display:block;">
+					                <div class="item">
+											<div class="container">
+													<!-- /head-section -->
+													<a href = "projectnew.html" target="_blank">
+														<h3 align="middle">Project 1</h3>
+													</a>
+													<p class="">Identification and diagnosis of spatiotemporal hydrometeorological structure of heavy precipitation induced floods in Southeast Asia.</p>
+	
+													<a href = "projectnew.html"  target="_blank">
+														<h3 align="middle">Project 2</h3>
+													</a>
+													<p class="">The Atmospheric River moisture transport mechanism for the spatiotemporal variations of the extreme precipitation in Southeast China coast.</p>
+
+													<!--project3~5-->
+													<a href = "projectnew.html" target="_blank">
+														<h3 align="middle">Project 3</h3>
+													</a>
+													<p class="">The role of atmospheric moisture transport and associated circulation patterns on extreme precipitation events at the mesoscale: a strategic scheme for the Sky-River initiative in China.</p>
+	
+												
+													<a href = "projectnew.html"  target="_blank">
+														<h3 align="middle">Project 4</h3>
+													</a>
+													<p class="">Revolutionizing Future Hydrometeorological Extreme Induced Multi-hazard Risk Mapping by Adapting Big Data Analytics on the Composition of Multi-source Information.</p>
+
+													<a href = "projectnew.html"  target="_blank">
+														<h3 align="middle">Project 5</h3>
+													</a>
+													<p class="">The Causal Dynamics of Atmospheric Moisture Transport-Convergence-Release for Flood-triggering Precipitation Sequences on the Southeast China coast.</p>
+													<a href="#services"  class="scroll"><label class="downarrow"> </label></a>
+												</div>				
+					                </div>
+					            </div>
+				</div>
+				<!-- portfolio-grids -->
+				<a class="more" href="projectnew.html" target="_blank">Link To Projects' Details </a><br />
+				<a href="#about" class="scroll"><label class="downarrow"> </label></a>
+			</div>
+			<!-- portfolio -->
+			
+			<!-- about-us -->
+			<div id="about" class="about-us text-center">
+				<div class="container">
+				<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>THE HYDROMETEOROLOGY GROUP</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+					<p>We are expanding our team now, if you are interested in research topics related to water, climate, natural resources (hydro/wind/solar/tidal...) and natural disaster, you also happen to love to do Big Data analysis, machine learning, data science or simply programming and algorithm development, we have Mphil/PhD student, Postdoc researcher, Research Assistant positions available in our group. Check out our current group members first.</p>
+					<!-- about-grids -->
+					<div class="about-grids">
+						<div class="col-md-3 about-grid text-center">
+							<div class="about-grid-info">
+								<img src="images/mlunew.jpeg" title="name" />
+								<h4>Mengqian LU</h4>
+								<span>PI/Advisor</span>
+								<label> </label>
+								<span> </span>
+								<a href = "file:///C:/Users/DDD/Dropbox/web/dailun.html" target="_blank">
+										<h5></h5>
+										Link to my page
+								</div>	
+							</div>
+							
+				
+						<div class="col-md-3 about-grid text-center">
+							<div class="about-grid-info">
+								<img src="images/dl2.jpeg" title="name" />
+								<h4>Lun DAI</h4>
+								<span>PhD Student</span>
+								<a href = "http://google.com"  target="_blank"></a>
+								<label> </label>
+								<span> </span>
+									<a href = "file:///C:/Users/DDD/Dropbox/web/dailun.html" target="_blank">
+										<h5></h5>
+										Link to my page
+								</div>	
+							
+						</div>
+						<div class="col-md-3 about-grid text-center">
+							<div class="about-grid-info">
+								<img src="images/mengxin2.jpeg" title="name" />
+								<h4>Mengxin PAN</h4>
+								<span>MPhil Student</span>
+								<label> </label>
+								<span> </span>
+									<a href = "file:///C:/Users/DDD/Dropbox/web/mengxin.html" target="_blank">
+										<h5></h5>
+										Link to my page
+							</div>
+							
+						</div>
+                        <div class="col-md-3 about-grid text-center">
+                        <div class="about-grid-info">
+                        <img src="images/fandy3.jpg" title="name" />
+                        <h4>Tat Fan CHENG, Fandy</h4>
+                        <span>MPhil Student</span>
+						<label> </label>
+						<a href = "file:///C:/Users/DDD/Dropbox/web/fandy.html" target="_blank">
+							<h5></h5>
+							Link to my page
+                        </div>
+                        </div>
+
+						<div class="col-md-3 about-grid text-center">
+							<div class="about-grid-info">
+								<img src="images/wangxinlu.jpeg" title="name" />
+								<h4>Xinlu Wang</h4>
+								<span>Summer Exchange Jul&Aug 2018</span>
+								<a href = "http://google.com"  target="_blank"></a>
+								<label> </label>
+								<span> </span>
+									<a href = "#" target="_blank">
+										<h5></h5>
+										Link to my page
+								</div>	
+							
+						</div>
+
+						<div class="col-md-3 about-grid text-center">
+							<div class="about-grid-info">
+								<img src="images/dqz.jpg" title="name" />
+								<h4>Qizhen Dong</h4>
+								<span>Summer Exchange Jul&Aug 2018</span>
+								<a href = "http://google.com"  target="_blank"></a>
+								<label> </label>
+								<span> </span>
+									<a href = "#" target="_blank">
+										<h5></h5>
+										Link to my page
+								</div>	
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- about-grids -->
+					<a href="#contact" class="scroll"><label class="downarrow1"> </label></a>
+				</div>
+				
+			</div>
+			<!-- about-us -->
+			<!-- latest-twittes -->
+			<div id= "Tweets" class="latest-twittes">
+				<div class="container">
+					<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>Latest Blogs</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+					<!-- twittes -->
+					<div class="twittes">
+						 <script>
+							    $(document).ready(function() {
+							      return false;
+							      $("#owl-demo1").owlCarousel({
+							        items : 1,
+							        lazyLoad : false,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo1" class="owl-carousel owl-carousel1 text-center" style="display:block;">
+					                <div class="item">
+					                	<div class="twitt text-center">
+											<h3 class="title" href="file:///Users/GraceTHU/Dropbox/web/indextweethome.html#">
+												<a href="">
+													Life is full of confusing and disordering Particular time,a particular location
+												</a>
+											</h3>
+											<p class="text">
+												Life is full of confusing and disordering Particular time,a particular location
+											</p>
+										</div>
+					                </div>
+					                 <div class="item">
+					                	<div class="twitt text-center">
+											<h3 class="title"  href="file:///Users/GraceTHU/Dropbox/web/indextweethome.html#">
+												<a href="">
+													No unexpected happening of surprising and pleasing
+												</a>
+											</h3>
+											<p class="text">
+												No unexpected happening of surprising and pleasing
+											</p>
+										</div>
+					                </div>
+					                 <div class="item">
+					                	<div class="twitt text-center">
+											<h3 class="title" href="file:///Users/GraceTHU/Dropbox/web/indextweethome.html#">
+												<a href="">
+													Only silently ask myself in mind Next happiness,when will come?
+												</a>
+											</h3>
+											<p class="text">
+												Only silently ask myself in mind Next happiness,when will come?
+											</p>
+										</div>
+					                </div>
+
+								   <div class="link">
+									   <a href="">Look More</a>
+								   </div>
+					            </div>
+					</div>
+					<!-- twittes -->
+				</div>
+			</div>
+			<!-- latest-twittes -->
+			<!-- Collaborators-->
+			<div id="services" class="services text-center">
+				<div class="container">
+				<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>Collaborators</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+				<p>More in the future.</p>
+				<!-- service-grids -->
+				<div class="service-grids">
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon"> </span>
+						<a href="http://water.columbia.edu/research-themes/cwc-china-water-initiative/"><img src="images/CWC_logo_c.png" /><h4>Columbia Water Center</h4></a>
+						<p>Columbia University</p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon1"> </span>
+						<a href="http://nareshdevineni.com/about-3/"><img src="images/2doctor.png" /><h4>Dr. Naresh Devineni</h4></a>
+						<p>City University of New York </p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon2"> </span>
+						<a href="http://nareshdevineni.com/about-3/"><img src="images/3doctor.jpg" /><h4>Dr. Upmanu Lall</h4></a>
+						<p>Columbia University</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="service-grids">
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon"> </span>
+						<a href="http://www.ahrl.re.kr/1m3.html"><img src="images/4doctor.png" /><h4>Dr. Kwon Hyun-Han</h4></a>
+						<p>Chonbuk National University </p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon1"> </span>
+						<a href="https://www-users.cs.umn.edu/~kumar001/"><img src="images/5doctor.png" /><h4>Dr. Vipin Kumar</h4></a>
+						<p>University of Minnesota, Minneapolis</p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon2"> </span>
+						<a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=5661"><img src="images/6doctor.png" /><h4>Dr. Lai-yung Ruby Leung</h4></a>
+						<p>Pacific Northwest National Laboratory</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="service-grids">
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon"> </span>
+						<a href="http://www.civil.tsinghua.edu.cn/en/he/essay/543/2545.html"><h4>Dr. Yang Hong</h4></a>
+						<p>Tsinghua University </p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon1"> </span>
+						<a href="http://www.sustc.edu.cn/en/faculty_58/f/Zheng_Yi "><h4>Dr. Yi Zheng</h4></a>
+						<p>Southern University of Science and Technology</p>
+					</div>
+					<div class="col-md-4 service-grid text-center">
+						<span class="s-icon2"> </span>
+						<a href="#"><h4>Dr. Dechun Huang</h4></a>
+						<h4>Dr. Changzheng Zhang </h4>
+						<p>Hohai University</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<!-- service-grids -->
+				<a href="#projects" class="scroll"><label class="downarrow1"> </label></a>
+				</div>
+			</div>
+				<!-- Research -->
+			<!-- shope --div class="shope text-center">
+				<div class="container">
+					<a href="#">Check our shope</a>
+				</div>
+			</div>
+			<!-- /shope -->
+
+        
+			<!-- contact -->
+			<div id="contact" class="contact">
+				<div class="container">
+					<!-- head-section -->
+					<div class="head-section text-center">
+						<h2>Contact us</h2>
+						<span> </span>
+					</div>
+					<!-- /head-section -->
+					<!-- contact-grids -->
+					<div class="contact-grids">
+						<div class="col-md-4 contact-left">
+							<h4>Address</h4>
+							<ul class="address">
+								<li>Dept. of Civil & Environmental Engineering</li>
+								<li>Hong Kong University of Science & Technology</li>
+								<li>Clear Water Bay, Kowloon</li>
+								<li>Hong Kong SAR, China</li>
+							</ul>
+							<ul class="social-icons">
+
+								<li><a href="https://github.com/HydroMetUST"><span class="facebook"> </span></a></li>
+								<!--<li><a href="http://www.facebook.com/sharer/sharer.php?u=index.html"><span class="facebook"> </span></a></li>-->
+								<li><a href="https://twitter.com/intent/tweet?u=index.html"><span class="twitter"> </span></a></li>
+								<li><a href="#"><span class="vimeo"> </span></a></li>
+								<li><a href="#"><span class="behance"> </span></a></li>
+							</ul>
+						</div>
+
+						<form class="col-md-8 form-message">
+							<div class="item clearfix">
+								<div class="col-md-6">
+									<input type="text" name="name" placeholder="Name" pattern="\S+" required>
+								</div>
+								<div class="col-md-6">
+									<input type="email" name="email" placeholder="Email" pattern="^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$" required>
+								</div>
+							</div>
+							<div class="item clearfix">
+								<div class="col-md-6">
+									<input type="tel" name="phone" placeholder="Telephone" pattern="\D+" required>
+								</div>
+								<div class="col-md-6">
+									<input type="text" name="subject" placeholder="Subject" >
+								</div>
+							</div>
+
+							<div class="col-md-12 item clearfix">
+								<textarea name="message" id="" cols="6" rows="6" placeholder="Message"></textarea>
+							</div>
+
+							<div class="col-md-12">
+								<button type="submit" class="more pull-right" data-href="">Mail </button><br />
+							</div>
+						</form>
+				<!--<a class="more" href="https://github.com/dashboard">Github </a><br />-->
+	
+		<div class="clearfix"> </div>
+					</div>
+					<!-- contact-grids -->
+				</div>
+			</div>
+			<!-- contact -->
+			<!-- footer -->
+			<div class="footer">
+				<div class="container"> 
+					<div class="footer-left">
+						<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					</div>
+					<div class="footer-right">
+						<p><a href="#totop" class="scroll">Back to top<span> </span></a></p>
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+					</div>
+				</div>
+			</div>
+			<!-- footer -->
+		<!-- /container -->
+
+		<script>
+			var input = $(".form-message input");
+			var textarea = $(".form-message textarea");
+            input.on("input", changeEmail);
+            textarea.on("input", changeEmail);
+
+			function changeEmail(){
+              var base = "mailto:hydrometust@gmail.com?";
+                var arr = {}, str="", keys, body = "";
+                input.each(function(){
+                  var self = $(this);
+                  arr[self.attr("name")] = self.val();
+                });
+                arr[textarea.attr("name")] = textarea.val();
+
+                body = "Nmae: " + arr['name'] + "    Telephone: " + arr['phone'] + " %0a -----------text below----------- %0a    "  + arr['message'];
+//			    arr['body'] = decodeURI(body);
+			    arr['body'] = body;
+                keys = Object.keys(arr);
+
+                for(var i = 0, len = keys.length; i < len; i++){
+                  str += keys[i] + "=" +arr[keys[i]];
+                  if(i !== len -1){
+                    str += "&";
+				  }
+				}
+
+
+				console.log(str,"str");
+                $("button.more").data("href", base + str);
+			}
+			$(document).on("click", "button.more", function(){
+			  var a = document.createElement("a");
+			  a.href = $(this).data("href");
+			  a.click();
+			  return false;
+			});
+
+            function popupwindow(url, title, w, h) {
+              wLeft = window.screenLeft ? window.screenLeft : window.screenX;
+              wTop = window.screenTop ? window.screenTop : window.screenY;
+
+              var left = wLeft + (window.innerWidth / 2) - (w / 2);
+              var top = wTop + (window.innerHeight / 2) - (h / 2);
+              return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+            }
+//              document.getElementById('share_button').onclick = function(){
+//                var shareUrl = "http://www.facebook.com/sharer/sharer.php?u=https://www.google.com";
+//                popupwindow(shareUrl, 'Facebook', 600, 400);
+//              }
+
+		</script>
+	</body>
+</html>
